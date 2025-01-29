@@ -27,3 +27,10 @@ if __name__ == "__main__":
     # Display the results
     print(f"GCD: {gcd}")
     print(f"x in Z26: {x_z26}, y in Z26: {y_z26}")
+
+#output
+#Enter the value for a: 147852369
+#Enter the value for b: 369852147
+#Initial values: x = 745641, y = -298078
+#GCD: 63
+#x in Z26: 13, y in Z26: 12
