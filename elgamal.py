@@ -47,3 +47,11 @@ if __name__ == "__main__":
     # Decrypt the ciphertext
     decrypted_number = elgamal_decrypt(c1, c2, d, p)
     print(f"Decrypted: {decrypted_number}")
+
+#output
+#Enter a large prime number (p): 199
+#Enter the base (e1): 11
+#Enter the private key (d): 163 
+#Enter the numeric plaintext to encrypt: 173
+#Ciphertext: (c1=62, c2=167)
+#Decrypted: 173
