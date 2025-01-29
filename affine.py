@@ -44,8 +44,6 @@ if _name_ == "_main_":
     decrypted = affine_decrypt(ciphertext, a, b)
     print(f"Decrypted: {decrypted}")
 
-
-
 #output
 #Enter the plaintext to encrypt: hello cryptography
 #Enter the value for a (should be coprime with 26): 147852369
