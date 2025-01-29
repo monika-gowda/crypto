@@ -37,3 +37,9 @@ if __name__ == "__main__":
     # Decrypt the text
     decrypted = vigenere_decrypt(encrypted, key)
     print(f"Decrypted: {decrypted}")
+
+#output
+#Enter the text to encrypt (uppercase letters only): SRI JAYACHAMARAJENDRA COLLEGE OF ENGINEERING
+#Enter the key (uppercase letters only): HELLO
+#Encrypted: ZVTEXHCLNVHQLCOQIYOFHXNZZSIRPHVJEPBNMYPSYMYR
+#Decrypted: SRITJAYACHAMARAJENDRATCOLLEGETOFTENGINEERING
