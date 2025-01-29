@@ -74,3 +74,12 @@ if __name__ == "__main__":
     # Decrypt the ciphertext
     decrypted = rsa_decrypt(ciphertext, d, n)
     print(f"Decrypted: {decrypted}")
+
+#output
+#Enter prime number p: 73939133
+#Enter prime number q: 7393913
+#Public Key (e, n): (388455464337571, 546699516697429)
+#Private Key (d, n): (283551833352875, 546699516697429)
+#Enter plaintext to encrypt (only uppercase letters): CRYPTOGRAPHY
+#Ciphertext: [396333354239673, 213771754632735, 489718700823563, 286815101636462, 538541936744007, 21086311737978, 137236074229519, 213771754632735, 0, 286815101636462, 236309269293636, 489718700823563]
+#Decrypted: CRYPTOGRAPHY
