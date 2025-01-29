@@ -16,14 +16,11 @@ if __name__ == "__main__":
 
     # Call the extended Euclidean function
     gcd, x, y = extended_euclidean(a, b)
-
     # Print initial values of x and y
     print(f"Initial values: x = {x}, y = {y}")
-
     # Adjust x and y to be in the Z26 range
     x_z26 = adjust_to_z26(x)
     y_z26 = adjust_to_z26(y)
-
     # Display the results
     print(f"GCD: {gcd}")
     print(f"x in Z26: {x_z26}, y in Z26: {y_z26}")
